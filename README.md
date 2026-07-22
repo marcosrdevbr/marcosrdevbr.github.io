@@ -128,16 +128,6 @@ The website provides quick access to my professional platforms:
 
 ---
 
-## 📷 Preview
-
-> Add a screenshot of the homepage here.
-
-```
-Images/portfolio-preview.png
-```
-
----
-
 ## 🚀 Future Improvements
 
 - Blog integration
