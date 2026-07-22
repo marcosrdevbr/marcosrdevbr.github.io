@@ -141,9 +141,9 @@ The website provides quick access to my professional platforms:
 ## 🤝 Connect With Me
 
 - 💻 GitHub: https://github.com/marcosrdevbr
-- 💼 LinkedIn: [https://www.linkedin.com/in/SEU-LINKEDIN](https://www.linkedin.com/in/marcos-rog%C3%A9rio-017923302/)
-- 📊 Tableau Public: [https://public.tableau.com/app/profile/SEU-PERFIL](https://public.tableau.com/app/profile/marcos.rogerio5761/vizzes)
-- 📖 Substack: [https://SEU-PERFIL.substack.com](https://substack.com/@marcosrogerio1978)
+- 💼 LinkedIn: https://www.linkedin.com/in/marcos-rog%C3%A9rio-017923302/
+- 📊 Tableau Public: https://public.tableau.com/app/profile/marcos.rogerio5761/vizzes
+- 📖 Substack: https://substack.com/@marcosrogerio1978
 
 ---
 
