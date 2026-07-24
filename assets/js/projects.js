@@ -269,4 +269,26 @@ const projects = [
     technologies: ["Tableau", "Sales Analytics", "Business Intelligence"],
     featured: false,
   },
+  {
+    id: "bitcoin-cryptocurrency-dashboard",
+    title: "Bitcoin & Cryptocurrency Dashboard",
+    category: "Power BI",
+    year: 2026,
+    image: "assets/images/projects/bitcoin-cryptocurrency-dashboard.png",
+    github: "https://github.com/marcosrdevbr/Bitcoin-Cryptocurrency-Dashboard",
+    substack: "",
+    description:
+      "Interactive Power BI dashboard for analyzing cryptocurrency prices, market capitalization, trading volume, and historical trends.",
+    overview:
+      "This Power BI dashboard provides an executive overview of cryptocurrency market performance through interactive visualizations and KPIs.",
+    objectives: [
+      "Monitor cryptocurrency prices over time.",
+      "Compare market capitalization across cryptocurrencies.",
+      "Analyze trading volume distribution.",
+      "Track highest and lowest prices.",
+      "Present market insights through interactive dashboards.",
+    ],
+    technologies: ["Power BI", "DAX", "Power Query"],
+    featured: true,
+  },
 ];
