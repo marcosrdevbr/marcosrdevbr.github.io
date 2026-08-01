@@ -7,411 +7,1078 @@
 
     <meta
       name="description"
-      content="Marcos Rogério's professional portfolio focused on Business Intelligence, Data Analytics, Power BI, SQL and Tableau."
+      content="Professional portfolio of Marcos Rogério, a Trade Marketing and Merchandising professional transitioning into Business Intelligence and Data Analytics."
     />
 
     <title>Marcos Rogério | Data Analytics</title>
 
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS -->
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
 
   <body>
-    <!-- Header -->
-    <header class="header">
-      <div class="container navbar">
-        <a href="#home" class="logo"> Marcos Rogério </a>
+    <!-- ======================================================
+       HEADER
+  ======================================================= -->
 
-        <nav class="nav-menu">
-          <a href="#home">Home</a>
-          <a href="#about">About</a>
-          <a href="#skills">Skills</a>
-          <a href="projects.html">Projects</a>
-          <a href="#certifications">Certifications</a>
-          <a href="#articles">Articles</a>
-          <a href="#contact">Contact</a>
+    <header class="header" id="header">
+      <div class="container navbar">
+        <!-- Logo -->
+        <a href="#home" class="logo" aria-label="Go to home">
+          Marcos<span>Rogério</span>
+        </a>
+
+        <!-- Navigation -->
+        <nav class="navigation" id="navigation">
+          <a href="#home" class="nav-link active"> Home </a>
+
+          <a href="#about" class="nav-link"> About </a>
+
+          <a href="#skills" class="nav-link"> Skills </a>
+
+          <a href="#projects" class="nav-link"> Projects </a>
+
+          <a href="#certifications" class="nav-link"> Certifications </a>
+
+          <a href="#contact" class="nav-link"> Contact </a>
         </nav>
+
+        <!-- Contact Button -->
+        <a href="#contact" class="header-button"> Let’s Connect </a>
+
+        <!-- Mobile Menu Button -->
+        <button
+          class="menu-button"
+          id="menuButton"
+          type="button"
+          aria-label="Open navigation menu"
+          aria-expanded="false"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
       </div>
     </header>
 
+    <!-- ======================================================
+       MAIN CONTENT
+  ======================================================= -->
+
     <main>
-      <!-- Hero Section -->
-      <section id="home" class="section hero">
-        <div class="container hero-content">
-          <div class="hero-greeting">
-            <span class="waving-hand" aria-hidden="true">
-              <svg
-                viewBox="0 0 64 64"
-                xmlns="http://www.w3.org/2000/svg"
-                role="img"
-              >
-                <g fill="#e6c19c" stroke="#c99d76" stroke-width="2">
-                  <rect
-                    x="27"
-                    y="7"
-                    width="9"
-                    height="31"
-                    rx="4.5"
-                    transform="rotate(-4 31.5 22.5)"
-                  />
+      <!-- ====================================================
+         HERO
+    ===================================================== -->
 
-                  <rect
-                    x="38"
-                    y="10"
-                    width="9"
-                    height="29"
-                    rx="4.5"
-                    transform="rotate(8 42.5 24.5)"
-                  />
-
-                  <rect
-                    x="48"
-                    y="16"
-                    width="8"
-                    height="25"
-                    rx="4"
-                    transform="rotate(18 52 28.5)"
-                  />
-
-                  <rect
-                    x="16"
-                    y="12"
-                    width="9"
-                    height="29"
-                    rx="4.5"
-                    transform="rotate(-16 20.5 26.5)"
-                  />
-
-                  <path
-                    d="M17 29
-             C13 25 9 23 6 26
-             C3 29 6 33 10 37
-             L20 48
-             C25 54 35 57 43 53
-             C51 49 54 42 52 34
-             L49 27
-             C47 23 42 24 41 28
-             L40 32
-             L36 24
-             C34 20 29 21 28 25
-             L27 32
-             L23 25
-             C21 21 16 23 16 27
-             Z"
-                  />
-                </g>
-              </svg>
-            </span>
-
-            <span>Hello, I'm</span>
-          </div>
-
-          <h1>Marcos Rogério</h1>
-
-          <h2>
-            Trade Marketing Professional transitioning to
-            <span>Business Intelligence & Data Analytics</span>
-          </h2>
-
-          <p>
-            Transforming business experience into data-driven decision-making
-            through Power BI, SQL, Tableau and Business Intelligence.
-          </p>
-
-          <div class="hero-buttons">
-            <a href="#projects" class="btn-primary"> View Projects </a>
-
-            <a href="#contact" class="btn-secondary"> Contact Me </a>
-          </div>
-        </div>
-      </section>
-
-      <!-- About Section -->
-      <section id="about" class="section">
-        <div class="container">
-          <h2>About Me</h2>
-
-          <p>
-            I am a Trade Marketing and Merchandising professional with
-            experience in field operations, team coordination, retail execution
-            and business performance.
-          </p>
-
-          <p>
-            I am currently expanding my career into Business Intelligence and
-            Data Analytics, building practical projects with Power BI, SQL,
-            Tableau, Excel and data storytelling.
-          </p>
-        </div>
-      </section>
-
-      <!-- Skills Section -->
-      <section id="skills" class="section">
-        <div class="container">
-          <h2>Skills</h2>
-
-          <div class="skills-grid">
-            <div class="skill-card">
-              <h3>Power BI</h3>
-              <p>
-                Data modeling, DAX, Power Query, dashboards and KPI analysis.
-              </p>
+      <section class="hero" id="home">
+        <div class="container hero-container">
+          <!-- Hero Content -->
+          <div class="hero-content">
+            <div class="hero-label">
+              <span class="hero-label-icon">▣</span>
+              Data Analytics Portfolio
             </div>
 
-            <div class="skill-card">
-              <h3>SQL</h3>
-              <p>
-                Data querying, filtering, aggregation and business analysis.
-              </p>
-            </div>
+            <h1 class="hero-title">
+              Marcos Rogério
+              <span>Data Analytics</span>
+            </h1>
 
-            <div class="skill-card">
-              <h3>Tableau</h3>
-              <p>
-                Interactive dashboards, visual analysis and data storytelling.
-              </p>
-            </div>
-
-            <div class="skill-card">
-              <h3>Excel</h3>
-              <p>
-                Data analysis, formulas, pivot tables, charts and reporting.
-              </p>
-            </div>
-
-            <div class="skill-card">
-              <h3>GitHub</h3>
-              <p>
-                Project documentation, repositories and portfolio publishing.
-              </p>
-            </div>
-
-            <div class="skill-card">
-              <h3>Business Intelligence</h3>
-              <p>Translating business data into actionable insights.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Projects Section -->
-      <section id="projects" class="section">
-        <div class="container">
-          <h2>Featured Projects</h2>
-
-          <p>
-            A selection of projects developed with Power BI, Tableau, SQL and
-            business analytics.
-          </p>
-
-          <div class="projects-grid" id="featured-projects"></div>
-          <div class="projects-page-link">
-            <a href="projects.html" class="btn-secondary">
-              View All Projects →
-            </a>
-          </div>
-        </div>
-      </section>
-
-      <!-- Certifications Section -->
-      <section id="certifications" class="section">
-        <div class="container">
-          <h2>Certifications</h2>
-
-          <div class="certifications-grid">
-            <article class="certification-card">
-              <h3>Data Analytics Essentials</h3>
-              <p>Cisco Networking Academy</p>
-            </article>
-
-            <article class="certification-card">
-              <h3>Introduction to Modern AI</h3>
-              <p>Cisco Networking Academy</p>
-            </article>
-
-            <article class="certification-card">
-              <h3>Introduction to Data Analysis with Power BI</h3>
-              <p>Fundação Bradesco</p>
-            </article>
-
-            <article class="certification-card">
-              <h3>Inbound Marketing</h3>
-              <p>HubSpot Academy</p>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <!-- Articles Section -->
-      <section id="articles" class="section">
-        <div class="container">
-          <h2>Technical Writing</h2>
-
-          <p>
-            I document my Business Intelligence and Data Analytics projects
-            through detailed technical articles, sharing implementation
-            decisions, challenges, and practical business insights.
-          </p>
-
-          <div class="technical-writing-card">
-            <div class="technical-writing-icon">📖</div>
-
-            <h3>Read my articles on Substack</h3>
-
-            <p>
-              Explore in-depth case studies, project walkthroughs and lessons
-              learned throughout my journey from Trade Marketing to Data
-              Analytics.
+            <p class="hero-description">
+              Trade Marketing &amp; Merchandising Professional transitioning
+              into Business Intelligence and Data Analytics. Passionate about
+              transforming business experience into strategic insights through
+              Power BI, SQL, Tableau, Python and Excel.
             </p>
 
-            <a
-              href="https://substack.com/@marcosrogerio1978"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="substack-button"
-            >
-              📖 Read Articles on Substack →
-            </a>
+            <div class="hero-buttons">
+
+  <a
+    href="projects.html"
+    class="button button-primary explore-projects-button"
+  >
+    Explore My Portfolio
+    <span>→</span>
+  </a>
+
+  <a
+    href="#contact"
+    class="button button-secondary"
+  >
+    Let's Connect
+    <span>→</span>
+  </a>
+
+</div>
+          <!-- Hero Visual -->
+          <div class="hero-visual">
+            <!-- Statistics -->
+            <div class="hero-statistics">
+
+  <article class="stat-card">
+    <strong
+      class="counter"
+      data-target="14"
+      data-suffix=""
+    >
+      0
+    </strong>
+
+    <span>
+      Projects
+    </span>
+  </article>
+
+
+  <article class="stat-card">
+    <strong
+      class="counter"
+      data-target="3"
+      data-suffix=""
+    >
+      0
+    </strong>
+
+    <span>
+      Certifications
+    </span>
+  </article>
+
+
+  <article class="stat-card">
+    <strong
+      class="counter"
+      data-target="5"
+      data-suffix="+"
+    >
+      0
+    </strong>
+
+    <span>
+      Technologies
+    </span>
+  </article>
+
+
+  <article class="stat-card">
+    <strong
+      class="counter"
+      data-target="100"
+      data-suffix="%"
+    >
+      0
+    </strong>
+
+    <span>
+      Passion for Data
+    </span>
+  </article>
+
+</div>
+          <!-- Profile Image -->
+            <div class="profile-wrapper">
+              <span class="technology-badge badge-power-bi"> Power BI </span>
+
+              <span class="technology-badge badge-sql"> SQL </span>
+
+              <span class="technology-badge badge-python"> Python </span>
+
+              <span class="technology-badge badge-tableau"> Tableau </span>
+
+                
+              <div class="profile-card">
+                <div class="profile-image-border">
+                  <img
+                    src="assets/images/profile.png"
+                    alt="Marcos Rogério"
+                    class="profile-image"
+                  />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
+
+        <!-- Decorative Elements -->
+        <div class="hero-glow hero-glow-one"></div>
+        <div class="hero-glow hero-glow-two"></div>
       </section>
 
-      <!-- Contact Section -->
-      <section id="contact" class="section">
+      <!-- ====================================================
+         TEMPORARY SECTIONS
+
+         Estas seções serão construídas nas próximas etapas.
+    ===================================================== -->
+
+      <!-- ====================================================
+     ABOUT
+===================================================== -->
+
+      <section class="about section" id="about">
         <div class="container">
-          <h2>Contact</h2>
+          <!-- Section Heading -->
+          <div class="section-heading">
+            <span class="section-label"> About Me </span>
 
-          <p class="contact-intro">
-            Let's connect! Explore my projects, read my technical articles, or
-            reach out through your preferred platform.
-          </p>
+            <h2 class="section-title">
+              Transforming Business Experience
+              <span>into Data-Driven Decisions</span>
+            </h2>
 
-          <div class="contact-grid">
-            <a
-              href="https://github.com/marcosrdevbr"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="contact-card"
-            >
-              <div class="contact-icon github-icon" aria-hidden="true">
-                <svg viewBox="0 0 24 24" role="img">
-                  <path
-                    fill="currentColor"
-                    d="M12 .7a11.3 11.3 0 0 0-3.6 22c.6.1.8-.2.8-.5v-2.1c-3.3.7-4-1.4-4-1.4-.5-1.3-1.3-1.7-1.3-1.7-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1.1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.8-1.6-2.6-.3-5.4-1.3-5.4-5.8 0-1.3.5-2.3 1.2-3.2-.1-.3-.5-1.6.1-3.2 0 0 1-.3 3.3 1.2a11.4 11.4 0 0 1 6 0C17.5 5.7 18.5 6 18.5 6c.6 1.6.2 2.9.1 3.2.8.9 1.2 1.9 1.2 3.2 0 4.5-2.7 5.5-5.4 5.8.4.4.8 1.1.8 2.2v3.2c0 .3.2.6.8.5A11.3 11.3 0 0 0 12 .7Z"
-                  />
-                </svg>
+            <p class="section-description">
+              Combining extensive Trade Marketing experience with Business
+              Intelligence, data analysis and strategic decision-making.
+            </p>
+          </div>
+
+          <!-- About Content -->
+          <div class="about-grid">
+            <!-- About Image -->
+            <div class="about-visual">
+              <div class="about-image-card">
+                <div class="about-image-glow"></div>
+
+                <img
+                  src="assets/images/profile.png"
+                  alt="Marcos Rogério"
+                  class="about-image"
+                />
+
+                <div class="about-experience-card">
+                  <strong>20+</strong>
+
+                  <span> Years of Trade Marketing experience </span>
+                </div>
+              </div>
+            </div>
+
+            <!-- About Text -->
+            <div class="about-content">
+              <div class="about-text">
+                <p>
+                  I am a Trade Marketing and Merchandising professional with
+                  extensive experience leading commercial initiatives, retail
+                  execution, field teams and strategic planning.
+                </p>
+
+                <p>
+                  Throughout my career, I have worked with sales analysis, KPIs,
+                  market intelligence, campaign performance and business
+                  operations. This experience naturally led me to specialize in
+                  Business Intelligence and Data Analytics.
+                </p>
+
+                <p>
+                  Today, I develop analytical projects using Power BI, SQL,
+                  Tableau, Python and Excel, transforming data into actionable
+                  insights that support better business decisions.
+                </p>
               </div>
 
-              <h3>GitHub</h3>
+              <!-- About Highlights -->
+              <div class="about-highlights">
+                <article class="about-highlight-card">
+                  <div class="about-highlight-icon">◈</div>
 
-              <p>
-                Explore my source code, project documentation and technical
-                repositories.
-              </p>
+                  <h3>Business</h3>
 
-              <span>Visit Profile →</span>
-            </a>
+                  <p>
+                    Strong background in Trade Marketing, Sales, Merchandising
+                    and retail execution.
+                  </p>
+                </article>
 
-            <a
-              href="https://www.linkedin.com/in/marcos-rog%C3%A9rio-017923302/"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="contact-card"
-            >
-              <div class="contact-icon linkedin-icon" aria-hidden="true">
-                <svg viewBox="0 0 24 24" role="img">
-                  <path
-                    fill="currentColor"
-                    d="M5.3 3.6A2.7 2.7 0 1 1 0 3.6a2.7 2.7 0 0 1 5.3 0ZM.5 8h4.6v15H.5V8Zm7.4 0h4.4v2.1h.1c.6-1.2 2.1-2.5 4.4-2.5 4.7 0 5.6 3.1 5.6 7.2V23h-4.6v-7.3c0-1.7 0-4-2.5-4s-2.9 1.9-2.9 3.9V23H7.9V8Z"
-                  />
-                </svg>
+                <article class="about-highlight-card">
+                  <div class="about-highlight-icon">◉</div>
+
+                  <h3>Analytics</h3>
+
+                  <p>
+                    Passionate about dashboards, KPIs, data visualization and
+                    Business Intelligence.
+                  </p>
+                </article>
+
+                <article class="about-highlight-card">
+                  <div class="about-highlight-icon">◆</div>
+
+                  <h3>Goal</h3>
+
+                  <p>
+                    Building analytical solutions that connect business strategy
+                    with reliable data.
+                  </p>
+                </article>
               </div>
 
-              <h3>LinkedIn</h3>
-
-              <p>
-                Connect with me, explore my professional journey and follow my
-                latest updates.
-              </p>
-
-              <span>Connect →</span>
-            </a>
-
-            <a
-              href="https://public.tableau.com/app/profile/marcos.rogerio5761/vizzes"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="contact-card"
-            >
-              <div class="contact-icon tableau-icon" aria-hidden="true">
-                <svg viewBox="0 0 24 24" role="img">
-                  <path
-                    fill="currentColor"
-                    d="M11 0h2v4h3v2h-3v4h-2V6H8V4h3V0ZM3 7h2v3h3v2H5v3H3v-3H0v-2h3V7Zm16 0h2v3h3v2h-3v3h-2v-3h-3v-2h3V7ZM11 14h2v4h3v2h-3v4h-2v-4H8v-2h3v-4ZM7 1h1v2h2v1H8v2H7V4H5V3h2V1Zm9 0h1v2h2v1h-2v2h-1V4h-2V3h2V1ZM7 18h1v2h2v1H8v2H7v-2H5v-1h2v-2Zm9 0h1v2h2v1h-2v2h-1v-2h-2v-1h2v-2Z"
-                  />
-                </svg>
-              </div>
-
-              <h3>Tableau Public</h3>
-
-              <p>
-                View my interactive dashboards, visual analyses and data
-                storytelling projects.
-              </p>
-
-              <span>View Dashboards →</span>
-            </a>
-
-            <a
-              href="https://substack.com/@marcosrogerio1978"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="contact-card"
-            >
-              <div class="contact-icon substack-icon" aria-hidden="true">
-                <svg viewBox="0 0 24 24" role="img">
-                  <path
-                    fill="currentColor"
-                    d="M3 3h18v3H3V3Zm0 5h18v3H3V8Zm0 5h18v8l-9-5-9 5v-8Z"
-                  />
-                </svg>
-              </div>
-
-              <h3>Substack</h3>
-
-              <p>
-                Read my technical articles, project case studies and practical
-                business insights.
-              </p>
-
-              <span>Read Articles →</span>
-            </a>
+              <!-- About Button -->
+              <a href="#projects" class="button button-secondary about-button">
+                Explore My Projects
+                <span>↓</span>
+              </a>
+            </div>
           </div>
         </div>
       </section>
+
+      <!-- ====================================================
+     SKILLS
+===================================================== -->
+
+      <section class="skills section" id="skills">
+        <div class="container">
+          <!-- Section Heading -->
+          <div class="section-heading">
+            <span class="section-label"> Skills </span>
+
+            <h2 class="section-title">Technologies &amp; Tools</h2>
+
+            <p class="section-description">
+              Tools and technologies used to transform raw data into clear,
+              practical and actionable business insights.
+            </p>
+          </div>
+
+          <!-- Skills Grid -->
+          <div class="skills-grid">
+            <!-- Power BI -->
+            <article class="skill-card skill-card-powerbi">
+              <div class="skill-card-top">
+                <div class="skill-icon skill-icon-powerbi">📊</div>
+
+                <span class="skill-level"> Advanced </span>
+              </div>
+
+              <h3>Power BI</h3>
+
+              <p>
+                Interactive dashboards, data modeling, Power Query, DAX,
+                business intelligence and KPI analysis.
+              </p>
+
+              <div class="skill-tags">
+                <span>DAX</span>
+                <span>Power Query</span>
+                <span>Data Modeling</span>
+              </div>
+            </article>
+
+            <!-- SQL -->
+            <article class="skill-card skill-card-sql">
+              <div class="skill-card-top">
+                <div class="skill-icon skill-icon-sql">▤</div>
+
+                <span class="skill-level"> Intermediate </span>
+              </div>
+
+              <h3>SQL</h3>
+
+              <p>
+                Data extraction, joins, aggregations, filtering, business
+                queries and relational database analysis.
+              </p>
+
+              <div class="skill-tags">
+                <span>SQLite</span>
+                <span>Queries</span>
+                <span>Joins</span>
+              </div>
+            </article>
+
+            <!-- Python -->
+            <article class="skill-card skill-card-python">
+              <div class="skill-card-top">
+                <div class="skill-icon skill-icon-python">◌</div>
+
+                <span class="skill-level"> Learning </span>
+              </div>
+
+              <h3>Python</h3>
+
+              <p>
+                Data analysis, automation, data cleaning and development of
+                analytical workflows.
+              </p>
+
+              <div class="skill-tags">
+                <span>Pandas</span>
+                <span>Automation</span>
+                <span>Analytics</span>
+              </div>
+            </article>
+
+            <!-- Tableau -->
+            <article class="skill-card skill-card-tableau">
+              <div class="skill-card-top">
+                <div class="skill-icon skill-icon-tableau">📈</div>
+
+                <span class="skill-level"> Intermediate </span>
+              </div>
+
+              <h3>Tableau</h3>
+
+              <p>
+                Interactive visualizations, dashboards, filters, calculations
+                and storytelling with data.
+              </p>
+
+              <div class="skill-tags">
+                <span>Dashboards</span>
+                <span>Visualization</span>
+                <span>Storytelling</span>
+              </div>
+            </article>
+
+            <!-- Excel -->
+            <article class="skill-card skill-card-excel">
+              <div class="skill-card-top">
+                <div class="skill-icon skill-icon-excel">▦</div>
+
+                <span class="skill-level"> Advanced </span>
+              </div>
+
+              <h3>Excel</h3>
+
+              <p>
+                Pivot Tables, formulas, Power Query, data preparation, business
+                reports and analytical dashboards.
+              </p>
+
+              <div class="skill-tags">
+                <span>Pivot Tables</span>
+                <span>Formulas</span>
+                <span>Power Query</span>
+              </div>
+            </article>
+
+            <!-- Git and GitHub -->
+            <article class="skill-card skill-card-git">
+              <div class="skill-card-top">
+                <div class="skill-icon skill-icon-git">⌘</div>
+
+                <span class="skill-level"> Intermediate </span>
+              </div>
+
+              <h3>Git &amp; GitHub</h3>
+
+              <p>
+                Version control, repository organization, project documentation,
+                GitHub Pages and portfolio management.
+              </p>
+
+              <div class="skill-tags">
+                <span>Git</span>
+                <span>GitHub</span>
+                <span>GitHub Pages</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ====================================================
+     PROJECTS
+===================================================== -->
+
+<section class="projects section" id="projects">
+
+  <div class="container">
+
+    <div class="section-heading">
+
+      <span class="section-label">
+        Portfolio
+      </span>
+
+      <h2 class="section-title">
+        Featured Projects
+      </h2>
+
+      <p class="section-description">
+        Selected Business Intelligence and Data Analytics projects
+        developed using Power BI, Tableau, SQL and Excel.
+      </p>
+
+    </div>
+
+
+    <div
+      class="projects-grid"
+      id="projectsGrid"
+    ></div>
+
+
+    <div class="projects-button">
+
+      <a
+        href="projects.html"
+        class="button button-primary"
+      >
+         Explore My Portfolio
+  <span>→</span>
+</a>
+
+    </div>
+
+  </div>
+
+</section>
+
+      <!-- ====================================================
+     CERTIFICATIONS
+===================================================== -->
+
+<section class="certifications section" id="certifications">
+
+  <div class="container">
+
+    <!-- Section Heading -->
+    <div class="section-heading">
+
+      <span class="section-label">
+        Certifications
+      </span>
+
+      <h2 class="section-title">
+        Continuous Learning and
+        <span>Professional Development</span>
+      </h2>
+
+      <p class="section-description">
+        Certifications and learning programs that support my professional
+        development in Data Analytics, Business Intelligence, Artificial
+        Intelligence and technology.
+      </p>
+
+    </div>
+
+
+    <!-- Certifications generated by JavaScript -->
+    <div
+      class="certifications-grid"
+      id="certificationsGrid"
+    ></div>
+
+
+    <!-- Technical Badges -->
+    <div class="badges-section">
+
+      <div class="badges-heading">
+
+        <span class="section-label">
+          Badges
+        </span>
+
+        <h3 class="badges-title">
+          Technical Badges
+        </h3>
+
+        <p class="badges-description">
+          Digital badges representing completed learning paths and
+          technical competencies.
+        </p>
+
+      </div>
+
+
+      <div
+        class="badges-grid"
+        id="badgesGrid"
+      ></div>
+
+    </div>
+
+  </div>
+
+</section>
+      <!-- ====================================================
+     CONTACT
+===================================================== -->
+
+<section class="contact section" id="contact">
+
+  <div class="container">
+
+    <div class="contact-grid">
+
+      <!-- Contact Introduction -->
+      <div class="contact-content">
+
+        <span class="section-label">
+          Contact
+        </span>
+
+        <h2 class="contact-title">
+          Let’s connect and transform
+          <span>data into better decisions</span>
+        </h2>
+
+        <p class="contact-description">
+          I am open to professional opportunities, connections and
+          conversations involving Business Intelligence, Data Analytics,
+          Trade Marketing and data-driven projects.
+        </p>
+
+
+        <!-- Areas of Interest -->
+        <div class="contact-interests">
+
+          <span>Business Intelligence</span>
+          <span>Data Analytics</span>
+          <span>Power BI</span>
+          <span>SQL</span>
+          <span>Tableau</span>
+
+        </div>
+
+
+        <!-- Professional Information -->
+        <div class="contact-information">
+
+          <article class="contact-information-card">
+
+            <div class="contact-information-icon">
+              ◉
+            </div>
+
+            <div>
+
+              <span class="contact-information-label">
+                Location
+              </span>
+
+              <strong>
+                São Paulo, Brazil
+              </strong>
+
+            </div>
+
+          </article>
+
+
+          <article class="contact-information-card">
+
+            <div class="contact-information-icon">
+              ◈
+            </div>
+
+            <div>
+
+              <span class="contact-information-label">
+                Professional Focus
+              </span>
+
+              <strong>
+                Business Intelligence &amp; Data Analytics
+              </strong>
+
+            </div>
+
+          </article>
+
+
+          <article class="contact-information-card">
+
+            <div class="contact-information-icon">
+              ◆
+            </div>
+
+            <div>
+
+              <span class="contact-information-label">
+                Availability
+              </span>
+
+              <strong>
+                Remote, Hybrid and On-site Opportunities
+              </strong>
+
+            </div>
+
+          </article>
+
+        </div>
+
+      </div>
+
+
+      <!-- Contact Card -->
+      <div class="contact-card">
+
+        <div class="contact-card-status">
+
+          <span class="contact-status-dot"></span>
+
+          Available for new opportunities
+
+        </div>
+
+
+        <div class="contact-card-divider"></div>
+
+
+        <div class="contact-links">
+
+          <!-- Email -->
+          <a
+            href="mailto:thebestofblack@gmail.com"
+            class="contact-link"
+          >
+
+            <span class="contact-link-icon">
+              ✉
+            </span>
+
+            <span class="contact-link-content">
+
+              <small>
+                Email
+              </small>
+
+              <strong>
+                Send me a message
+              </strong>
+
+            </span>
+
+            <span class="contact-link-arrow">
+              →
+            </span>
+
+          </a>
+
+
+          <!-- LinkedIn -->
+          <a
+            href="https://www.linkedin.com/in/marcos-rog%C3%A9rio-017923302/"
+            class="contact-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+
+            <span class="contact-link-icon">
+              in
+            </span>
+
+            <span class="contact-link-content">
+
+              <small>
+                LinkedIn
+              </small>
+
+              <strong>
+                Connect professionally
+              </strong>
+
+            </span>
+
+            <span class="contact-link-arrow">
+              ↗
+            </span>
+
+          </a>
+
+
+          <!-- GitHub -->
+          <a
+            href="https://github.com/marcosrdevbr"
+            class="contact-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+
+            <span class="contact-link-icon">
+              &lt;/&gt;
+            </span>
+
+            <span class="contact-link-content">
+
+              <small>
+                GitHub
+              </small>
+
+              <strong>
+                Explore my projects
+              </strong>
+
+            </span>
+
+            <span class="contact-link-arrow">
+              ↗
+            </span>
+
+          </a>
+
+
+          <!-- Tableau -->
+          <a
+            href="https://public.tableau.com/app/profile/marcos.rogerio5761/vizzes"
+            class="contact-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+
+            <span class="contact-link-icon">
+              ◫
+            </span>
+
+            <span class="contact-link-content">
+
+              <small>
+                Tableau Public
+              </small>
+
+              <strong>
+                View my dashboards
+              </strong>
+
+            </span>
+
+            <span class="contact-link-arrow">
+              ↗
+            </span>
+
+          </a>
+
+        </div>
+
+
+        <!-- Resume Button -->
+        <a
+          href="assets/documents/marcos-rogerio-resume.pdf"
+          class="contact-resume-button"
+          download
+        >
+          Download Resume
+          <span>↓</span>
+        </a>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
     </main>
 
-    <!-- Footer -->
-    <footer class="footer">
-      <div class="container">
-        <div class="footer-divider"></div>
+    <!-- ======================================================
+     FOOTER
+======================================================= -->
 
-        <p class="footer-copyright">
-          © 2026 Marcos Rogério. All rights reserved.
+<footer class="footer">
+
+  <div class="container">
+
+    <div class="footer-grid">
+
+      <!-- Footer Brand -->
+      <div class="footer-brand">
+
+        <a href="#home" class="footer-logo">
+          Marcos<span>Rogério</span>
+        </a>
+
+        <p>
+          Trade Marketing and Merchandising professional transitioning
+          into Business Intelligence and Data Analytics.
         </p>
 
-        <p class="footer-tech">
-          Built with <strong>HTML</strong>, <strong>CSS</strong> &amp;
-          <strong>JavaScript</strong>.
-        </p>
+        <div class="footer-technologies">
 
-        <p class="footer-author">
-          Designed &amp; Developed by
-          <span>Marcos Rogério</span>
-        </p>
+          <span>Power BI</span>
+          <span>SQL</span>
+          <span>Tableau</span>
+          <span>Python</span>
+
+        </div>
+
       </div>
-    </footer>
 
-    <script src="assets/js/projects.js"></script>
+
+      <!-- Navigation -->
+      <div class="footer-column">
+
+        <h3>
+          Navigation
+        </h3>
+
+        <nav class="footer-navigation">
+
+          <a href="#home">
+            Home
+          </a>
+
+          <a href="#about">
+            About
+          </a>
+
+          <a href="#skills">
+            Skills
+          </a>
+
+          <a href="#projects">
+            Projects
+          </a>
+
+          <a href="#certifications">
+            Certifications
+          </a>
+
+          <a href="#contact">
+            Contact
+          </a>
+
+        </nav>
+
+      </div>
+
+
+      <!-- Explore -->
+      <div class="footer-column">
+
+        <h3>
+          Explore
+        </h3>
+
+        <nav class="footer-navigation">
+
+          <a href="projects.html">
+            All Projects
+          </a>
+
+          <a
+            href="https://github.com/marcosrdevbr?tab=repositories"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub Repositories ↗
+          </a>
+
+          <a
+            href="SEU-TABLEAU-PUBLIC-AQUI"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Tableau Public ↗
+          </a>
+
+          <a
+            href="assets/documents/marcos-rogerio-resume.pdf"
+            download
+          >
+            Download Resume ↓
+          </a>
+
+        </nav>
+
+      </div>
+
+
+      <!-- Connect -->
+      <div class="footer-column">
+
+        <h3>
+          Connect
+        </h3>
+
+        <nav class="footer-navigation">
+
+          <a
+            href="https://github.com/marcosrdevbr"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub ↗
+          </a>
+
+          <a
+            href="SEU-LINKEDIN-AQUI"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LinkedIn ↗
+          </a>
+
+          <a
+            href="SEU-TABLEAU-PUBLIC-AQUI"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Tableau ↗
+          </a>
+
+          <a href="mailto:SEU-EMAIL-AQUI">
+            Email ↗
+          </a>
+
+        </nav>
+
+      </div>
+
+    </div>
+
+
+    <!-- Footer Bottom -->
+    <div class="footer-bottom">
+
+      <p>
+        © <span id="currentYear">2026</span>
+        Marcos Rogério. All rights reserved.
+      </p>
+
+      <p>
+        Built with HTML, CSS &amp; JavaScript.
+        Designed and developed by Marcos Rogério.
+      </p>
+
+    </div>
+
+  </div>
+
+</footer>
+
+    <!-- ======================================================
+       BACK TO TOP BUTTON
+  ======================================================= -->
+
+    <button
+      class="back-to-top"
+      id="backToTop"
+      type="button"
+      aria-label="Back to top"
+      title="Back to top"
+    >
+      ↑
+    </button>
+
+    <!-- Certifications Data and Rendering -->
+    <script src="assets/js/certifications.js"></script>
+
+    <!-- Main JavaScript -->
     <script src="assets/js/script.js"></script>
   </body>
+</html>
+
+<!-- ======================================================
+     JAVASCRIPT FILES
+====================================================== -->
+
+<script src="assets/js/projects.js"></script>
+
+<script src="assets/js/certifications.js"></script>
+
+<script src="assets/js/script.js"></script>
+
+</body>
 </html>

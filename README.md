@@ -1,10 +1,7 @@
 # 🌐 Marcos Rogério | Data Analytics Portfolio
 
 <p align="center">
-  <img
-    src="assets/images/portfolio-preview.png"
-    alt="Portfolio Preview"
-    width="100%">
+  <img src="images/portfolio-banner.png" alt="Marcos Rogério Portfolio Banner" width="100%">
 </p>
 
 <p align="center">
@@ -12,151 +9,235 @@
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-121013?style=for-the-badge&logo=github&logoColor=white)
+![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-222222?style=for-the-badge&logo=githubpages&logoColor=white)
+![Responsive](https://img.shields.io/badge/Responsive-0EA5E9?style=for-the-badge)
 
 </p>
 
 <p align="center">
-A modern and responsive portfolio built to showcase my Business Intelligence and Data Analytics projects, technical articles, and professional journey.
+A modern and responsive personal portfolio designed to showcase projects, technical skills, certifications, and my professional journey from Trade Marketing & Merchandising to Business Intelligence and Data Analytics.
 </p>
 
 ---
 
-## 🌐 Live Website
+# 🌍 Live Website
 
-🔗 **Portfolio:**  
-https://marcosrdevbr.github.io/
-
----
-
-## 📌 About
-
-This repository contains my personal portfolio website, developed from scratch using **HTML**, **CSS**, and **JavaScript**.
-
-The portfolio was designed to provide a central hub where recruiters, hiring managers, and professionals can explore:
-
-- 📊 Data Analytics projects
-- 📈 Business Intelligence dashboards
-- 💻 GitHub repositories
-- 📖 Technical articles published on Substack
-- 📊 Tableau Public dashboards
-- 💼 Professional profile and contact information
-
-The goal is to present both my technical skills and my transition journey from **Trade Marketing** to **Business Intelligence & Data Analytics**.
+### 🔗 https://marcosrdevbr.github.io
 
 ---
 
-## ✨ Features
+# 📌 Overview
 
-- Responsive design
-- Modern user interface
-- Featured Projects section
-- Complete Projects gallery
-- Individual project pages
-- Technical Writing section
-- Integrated contact cards
-- GitHub Pages deployment
-- Smooth animations and transitions
+This portfolio was built to serve as my professional online presence, bringing together my Business Intelligence projects, technical certifications, and career transition into Data Analytics.
+
+Rather than being just a personal website, this portfolio reflects my learning journey, technical growth, and commitment to continuous improvement.
 
 ---
 
-## 🛠️ Technologies Used
+# ✨ Features
+
+- Responsive Design
+- Modern UI/UX
+- Animated Hero Section
+- About Me Section
+- Technical Skills
+- Featured Projects
+- Complete Projects Gallery
+- Interactive Project Cards
+- Professional Certifications
+- Technical Badges
+- Certificate Preview Modal
+- Contact Section
+- Back-to-Top Button
+- Smooth Scroll Navigation
+- GitHub Pages Deployment
+
+---
+
+# 🛠️ Technologies Used
 
 - HTML5
 - CSS3
-- JavaScript (Vanilla)
+- JavaScript (Vanilla JS)
+- Git
+- GitHub
 - GitHub Pages
 
 ---
 
-## 📂 Website Structure
+# 📂 Project Structure
 
 ```text
-Home
-│
-├── About
-├── Skills
-├── Featured Projects
-├── Technical Writing
-├── Contact
-└── Footer
+Portfolio-Website/
 
-Projects
 │
-├── All Projects
-└── Project Details
+├── assets/
+│   ├── css/
+│   │     style.css
+│   │
+│   ├── js/
+│   │     script.js
+│   │     projects.js
+│   │     certifications.js
+│   │
+│   ├── images/
+│   │
+│   ├── certifications/
+│   │
+│   └── icons/
+│
+├── index.html
+├── projects.html
+├── project.html
+│
+└── README.md
 ```
 
 ---
 
-## 🚀 Featured Sections
+# 📸 Website Sections
 
-### 📊 Featured Projects
+## 🏠 Hero
 
-A curated selection of Business Intelligence and Data Analytics projects developed using:
+- Professional introduction
+- Statistics
+- Call-to-action buttons
+
+---
+
+## 👤 About
+
+Professional summary highlighting:
+
+- Trade Marketing
+- Merchandising
+- Business Intelligence
+- Data Analytics
+
+---
+
+## 💻 Skills
+
+Technical stack including:
 
 - Power BI
-- Tableau
 - SQL
+- Tableau
+- Python
 - Excel
+- Git & GitHub
 
 ---
 
-### 📖 Technical Writing
+## 📊 Featured Projects
 
-Technical articles documenting:
-
-- Project development
-- Business insights
-- Dashboard design
-- Data storytelling
-- Lessons learned
-- Career transition
-
-Published on **Substack**.
+Highlights of the main Business Intelligence projects developed throughout my portfolio.
 
 ---
 
-### 📬 Contact
+## 📁 Projects Gallery
 
-The website provides quick access to my professional platforms:
+Complete collection of portfolio projects including:
 
-- GitHub
+- Power BI Dashboards
+- Tableau Dashboards
+- SQL Projects
+- GitHub Repositories
+
+---
+
+## 🎓 Certifications
+
+Professional certifications from:
+
+- Cisco Networking Academy
+- Fundação Bradesco
+
+Including certificate preview and technical badges.
+
+---
+
+## 📬 Contact
+
+Quick access to:
+
 - LinkedIn
-- Tableau Public
-- Substack
+- GitHub
+- Email
 
 ---
 
-## 🚀 Future Improvements
+# 📱 Responsive Design
 
-- Blog integration
-- Dark/Light theme switch
-- Search and filtering enhancements
-- Additional project categories
-- Interactive animations
+Optimized for:
 
----
-
-## 🤝 Connect With Me
-
-- 💻 GitHub: https://github.com/marcosrdevbr
-- 💼 LinkedIn: https://www.linkedin.com/in/marcos-rog%C3%A9rio-017923302/
-- 📊 Tableau Public: https://public.tableau.com/app/profile/marcos.rogerio5761/vizzes
-- 📖 Substack: https://substack.com/@marcosrogerio1978
+- Desktop
+- Laptop
+- Tablet
+- Mobile Devices
 
 ---
 
-## 📄 License
+# 🚀 Deployment
 
-This project is available for learning and portfolio inspiration.
+This portfolio is hosted using **GitHub Pages**.
 
-Please do not copy the design or content without permission.
+---
+
+# 📈 Current Portfolio Statistics
+
+- 📁 14 Projects
+- 🎓 3 Certifications
+- 💻 6+ Technologies
+- ❤️ 100% Passion for Data
+
+---
+
+# 🎯 Future Improvements (v2.0)
+
+- Individual Project Pages
+- Dark / Light Theme
+- Advanced Animations
+- Search Projects
+- Project Timeline
+- SEO Improvements
+- Open Graph Metadata
+- Sitemap
+- Robots.txt
+- Multi-language Support (EN / PT-BR)
+
+---
+
+# About the Author
+👨🏾‍💻 
+
+I'm a Trade Marketing & Merchandising professional currently transitioning into Business Intelligence and Data Analytics.
+
+My focus is developing practical projects using Power BI, SQL, Tableau, Excel, and modern data visualization techniques to transform raw data into meaningful business insights.
+
+---
+
+# 📫 Connect with Me
+
+🌐 Portfolio: https://marcosrdevbr.github.io
+
+💼 LinkedIn: https://www.linkedin.com/in/marcos-rog%C3%A9rio-017923302/
+
+💻 GitHub: https://github.com/marcosrdevbr
+
+📊 Tableau Public: https://public.tableau.com/app/profile/marcos.rogerio5761/vizzes
+
+
+---
+
+# ⭐ If you enjoyed this project...
+
+If you found this portfolio interesting, consider giving this repository a ⭐ on GitHub.
+
+Feedback and suggestions are always welcome!
 
 ---
 
 ## © 2026 Marcos Rogério
 
-Built with **HTML**, **CSS** & **JavaScript**.
-
-Designed & Developed by **Marcos Rogério**.
+Built with ❤️ using HTML, CSS, JavaScript and GitHub Pages.
