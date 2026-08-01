@@ -1,7 +1,7 @@
 # 🌐 Marcos Rogério | Data Analytics Portfolio
 
 <p align="center">
-  <img src="assets/Images/portfolio-banner.png" alt="Marcos Rogério Portfolio Banner" width="100%">
+  <img src="assets/images/portfolio-banner.png" alt="Marcos Rogério Portfolio Banner" width="100%">
 </p>
 
 <p align="center">
