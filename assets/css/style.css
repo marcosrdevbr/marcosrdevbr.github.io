@@ -139,6 +139,11 @@ button {
 .logo {
   flex-shrink: 0;
 
+  display: inline-flex;
+  align-items: center;
+
+  gap: 5px;
+
   font-size: 21px;
   font-weight: 800;
 
@@ -147,8 +152,9 @@ button {
   color: var(--text-primary);
 }
 
-.logo span {
+.logo strong {
   color: var(--primary-color);
+  font-weight: inherit;
 }
 
 /* ==========================================================
@@ -646,7 +652,6 @@ button {
   right: -5px;
   bottom: 20px;
 }
-
 
 /* ==========================================================
    HERO BACKGROUND EFFECTS
