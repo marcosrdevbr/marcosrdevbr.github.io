@@ -218,12 +218,12 @@ This portfolio is hosted using **GitHub Pages**.
 
 ---
 
-# Sobre o Autor
+# About the Author
 👨🏾‍💻 
 
-Sou um profissional de Trade Marketing e Merchandising em transição para as áreas de Business Intelligence e Análise de Dados.
+I'm a Trade Marketing & Merchandising professional currently transitioning into Business Intelligence and Data Analytics.
 
-Meu foco é desenvolver projetos práticos utilizando Power BI, SQL, Tableau, Excel e técnicas modernas de visualização de dados para transformar dados brutos em insights de negócios relevantes.
+My focus is developing practical projects using Power BI, SQL, Tableau, Excel, and modern data visualization techniques to transform raw data into meaningful business insights.
 
 ---
 
