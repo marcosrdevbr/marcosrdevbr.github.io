@@ -1,3 +1,17 @@
+---
+
+## © Copyright Notice
+
+© 2026 Marcos Rogério. All rights reserved.
+
+This project is intended for portfolio and educational purposes.
+
+You are welcome to explore the source code for learning and reference.
+
+Copying, reproducing, or redistributing the design, branding, content, or visual identity of this project without prior written permission is prohibited.
+
+---
+
 # 🌐 Marcos Rogério | Data Analytics Portfolio
 
 <p align="center">
