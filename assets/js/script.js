@@ -1,3 +1,18 @@
+/*
+============================================================
+
+Portfolio Website
+
+Copyright © 2026 Marcos Rogério
+All rights reserved.
+
+Educational use only.
+
+Please do not copy this project or redistribute it as your own.
+
+============================================================
+*/
+
 "use strict";
 
 /* ==========================================================
