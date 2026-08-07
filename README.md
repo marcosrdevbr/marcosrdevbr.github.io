@@ -1,4 +1,4 @@
-# 🌐 Marcos Rogério | Data Analytics Portfolio
+# 🌐 Marcos Rogério | Data Analytics Portfolio Website
 
 <p align="center">
   <img src="assets/images/portfolio-banner.png"
