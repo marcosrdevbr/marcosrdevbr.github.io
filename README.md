@@ -457,7 +457,7 @@ Unauthorized copying, redistribution or reproduction of the design, branding, vi
 
 ---
 
-# 🙏 Acknowledgements
+# 🙏🏾 Acknowledgements
 
 Special thanks to the open-source community and to the many professionals who share knowledge, helping developers and data professionals grow every day.
 
