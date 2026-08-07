@@ -2,8 +2,8 @@
 
 <p align="center">
   <img src="assets/images/portfolio-banner.png"
-     alt="Marcos Rogério Portfolio Banner"
-     width="100%">
+       alt="Marcos Rogério Data Analytics Portfolio"
+       width="100%">
 </p>
 
 <p align="center">
@@ -13,11 +13,16 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-222222?style=for-the-badge&logo=githubpages&logoColor=white)
 ![Responsive](https://img.shields.io/badge/Responsive-0EA5E9?style=for-the-badge)
+![Portfolio](https://img.shields.io/badge/Portfolio-Live-success?style=for-the-badge)
 
 </p>
 
 <p align="center">
-A modern and responsive personal portfolio designed to showcase projects, technical skills, certifications, and my professional journey from Trade Marketing & Merchandising to Business Intelligence and Data Analytics.
+
+### Trade Marketing & Merchandising Professional transitioning into Business Intelligence and Data Analytics.
+
+Building practical Business Intelligence solutions with **Power BI, SQL, Tableau, JavaScript and modern web technologies.**
+
 </p>
 
 ---
@@ -26,158 +31,60 @@ A modern and responsive personal portfolio designed to showcase projects, techni
 
 ### 🔗 https://marcosrdevbr.github.io
 
+Experience the complete multilingual portfolio online.
+
 ---
 
 # 📌 Overview
 
-This portfolio was built to serve as my professional online presence, bringing together my Business Intelligence projects, technical certifications, and career transition into Data Analytics.
+This portfolio was designed as my professional online presence, bringing together Business Intelligence projects, technical certifications, analytical skills and my career transition into Data Analytics.
 
-Rather than being just a personal website, this portfolio reflects my learning journey, technical growth, and commitment to continuous improvement.
+More than a personal website, this project demonstrates my continuous learning journey and my commitment to building practical, business-oriented analytical solutions.
+
+The portfolio was developed from scratch using **HTML, CSS and Vanilla JavaScript**, with a strong focus on performance, responsiveness, accessibility and clean user experience.
+
+---
+
+# 🚀 Highlights
+
+- 🌍 Multilingual Portfolio (English • Portuguese • Simplified Chinese)
+- 📁 14 Business Intelligence & Data Analytics Projects
+- 📊 Power BI Dashboards
+- 📈 Tableau Dashboards
+- 🗄 SQL Analytics Projects
+- 💻 Built with HTML, CSS and Vanilla JavaScript
+- 📱 Fully Responsive Design
+- ⚡ Dynamic Project Filtering
+- 🎓 Professional Certifications
+- 🏅 Technical Badges
+- 🚀 Hosted on GitHub Pages
 
 ---
 
 # ✨ Features
 
-- Responsive Design
-- Modern UI/UX
-- Animated Hero Section
-- About Me Section
-- Technical Skills
-- Featured Projects
-- Complete Projects Gallery
-- Interactive Project Cards
-- Professional Certifications
-- Technical Badges
-- Certificate Preview Modal
-- Contact Section
-- Back-to-Top Button
-- Smooth Scroll Navigation
-- GitHub Pages Deployment
+## 🌍 Multilingual Experience
+
+- English
+- Portuguese (Brazil)
+- Simplified Chinese
+
+Language switching happens instantly without page reload.
 
 ---
 
-# 🛠️ Technologies Used
+## 🎨 Modern User Interface
 
-- HTML5
-- CSS3
-- JavaScript (Vanilla JS)
-- Git
-- GitHub
-- GitHub Pages
-
----
-
-# 📂 Project Structure
-
-```text
-Portfolio-Website/
-
-│
-├── assets/
-│   ├── css/
-│   │     style.css
-│   │
-│   ├── js/
-│   │     script.js
-│   │     projects.js
-│   │     certifications.js
-│   │
-│   ├── images/
-│   │
-│   ├── certifications/
-│   │
-│   └── icons/
-│
-├── index.html
-├── projects.html
-├── project.html
-│
-└── README.md
-```
+- Modern Layout
+- Clean Design
+- Smooth Animations
+- Glassmorphism Elements
+- Interactive Cards
+- Professional Typography
 
 ---
 
-# 📸 Website Sections
-
-## 🏠 Hero
-
-- Professional introduction
-- Statistics
-- Call-to-action buttons
-
----
-
-## 👤 About
-
-Professional summary highlighting:
-
-- Trade Marketing
-- Merchandising
-- Business Intelligence
-- Data Analytics
-
----
-
-## 💻 Skills
-
-Technical stack including:
-
-- Power BI
-- SQL
-- Tableau
-- Python
-- Excel
-- Git & GitHub
-
----
-
-## 📊 Featured Projects
-
-Highlights of the main Business Intelligence projects developed throughout my portfolio.
-
----
-
-## 📁 Projects Gallery
-
-Complete collection of portfolio projects including:
-
-- Power BI Dashboards
-- Tableau Dashboards
-- SQL Projects
-- GitHub Repositories
-
----
-
-## 🎓 Certifications
-
-Professional certifications from:
-
-- Cisco Networking Academy
-- Fundação Bradesco
-
-Including certificate preview and technical badges.
-
----
-
-## 📬 Contact
-
-Quick access to:
-
-<a href="https://www.linkedin.com/in/marcos-rog%C3%A9rio-017923302/" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
-
-<a href="https://github.com/marcosrdevbr" target="_blank">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-</a>
-
-<a href="mailto:thebestofblack@gmail.com">
-  <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
-</a>
-
----
-
-# 📱 Responsive Design
+## 📱 Responsive Design
 
 Optimized for:
 
@@ -188,79 +95,408 @@ Optimized for:
 
 ---
 
+## 📊 Portfolio Projects
+
+- Featured Projects Section
+- Complete Projects Gallery
+- Dynamic Project Cards
+- Project Filtering by Technology
+- GitHub Repository Integration
+
+---
+
+## 💼 Professional Sections
+
+- Hero
+- About Me
+- Skills
+- Featured Projects
+- Complete Portfolio
+- Certifications
+- Technical Badges
+- Contact
+- Footer
+
+---
+
+## ⚙️ User Experience
+
+- Smooth Scroll Navigation
+- Active Navigation Menu
+- Animated Sections
+- Back-to-Top Button
+- Interactive Hover Effects
+- Certificate Preview Modal
+- Optimized Performance
+
+---
+
+# 🛠 Technologies Used
+
+### Front-End
+
+- HTML5
+- CSS3
+- Vanilla JavaScript
+
+### Development
+
+- Git
+- GitHub
+- GitHub Pages
+
+### Data Analytics
+
+- Power BI
+- SQL
+- Tableau
+- Excel
+- Python
+
+  ---
+
+# 📂 Project Structure
+
+```text
+Portfolio-Website/
+
+│
+├── assets/
+│   │
+│   ├── css/
+│   │   └── style.css
+│   │
+│   ├── documents/
+│   │
+│   ├── images/
+│   │   ├── certifications/
+│   │   ├── projects/
+│   │   ├── portfolio-banner.png
+│   │   └── profile.png
+│   │
+│   ├── js/
+│   │   ├── script.js
+│   │   ├── projects.js
+│   │   ├── certifications.js
+│   │   └── language.js
+│   │
+│   └── translations/
+│       ├── en.js
+│       ├── pt-BR.js
+│       └── zh-CN.js
+│
+├── index.html
+├── projects.html
+└── README.md
+```
+
+---
+
+# 📸 Website Sections
+
+## 🏠 Hero
+
+The landing section introduces my professional profile with a modern visual presentation.
+
+Features include:
+
+- Professional Introduction
+- Dynamic Statistics
+- Call-to-Action Buttons
+- Profile Image
+- Smooth Entrance Animations
+
+---
+
+## 👤 About
+
+A concise overview of my professional journey, highlighting more than 20 years of experience in Trade Marketing & Merchandising and my transition into Business Intelligence and Data Analytics.
+
+---
+
+## 💻 Technical Skills
+
+Technologies currently featured:
+
+- Power BI
+- SQL
+- Tableau
+- Python
+- Excel
+- HTML5
+- CSS3
+- JavaScript
+- Git
+- GitHub
+
+Each technology includes a visual proficiency indicator.
+
+---
+
+## 📊 Featured Projects
+
+A curated selection of my primary Business Intelligence projects.
+
+Includes:
+
+- Power BI Dashboards
+- Tableau Dashboards
+- SQL Analytics
+- Portfolio Website
+
+---
+
+## 📁 Complete Projects Gallery
+
+Dedicated page displaying all portfolio projects.
+
+Features:
+
+- Dynamic Project Cards
+- Technology Filters
+- GitHub Integration
+- Responsive Grid Layout
+- Multilingual Content
+- Project Statistics
+
+---
+
+## 🎓 Certifications
+
+Professional certifications from internationally recognized learning platforms.
+
+Current providers include:
+
+- Cisco Networking Academy
+- Fundação Bradesco
+
+The section also includes digital badges and certificate preview functionality.
+
+---
+
+## 📬 Contact
+
+Quick access to my professional channels:
+
+- LinkedIn
+- GitHub
+- Tableau Public
+- Email
+
+Visitors can easily connect or explore additional projects.
+
+---
+
+# 🌍 Multilingual Architecture
+
+The portfolio supports three languages:
+
+- 🇺🇸 English
+- 🇧🇷 Portuguese (Brazil)
+- 🇨🇳 Simplified Chinese
+
+Translations are dynamically loaded using Vanilla JavaScript, allowing instant language switching without reloading the page.
+
+Translation files:
+
+```text
+assets/translations/
+
+en.js
+pt-BR.js
+zh-CN.js
+```
+
+Language management is handled through:
+
+```text
+assets/js/language.js
+```
+
+---
+
+# ⚙️ Technical Highlights
+
+The project was developed following a modular architecture.
+
+Main components include:
+
+- Modular JavaScript files
+- Dynamic project rendering
+- Dynamic certification rendering
+- Language management system
+- Responsive layout
+- CSS animations
+- Component-based organization
+
+---
+
+# 📱 Responsive Design
+
+The website was designed using a mobile-first responsive approach.
+
+Optimized for:
+
+- Desktop
+- Laptop
+- Tablet
+- Mobile
+
+All sections automatically adapt to different screen sizes while maintaining usability and visual consistency.
+
+---
+
 # 🚀 Deployment
 
-This portfolio is hosted using **GitHub Pages**.
+The portfolio is deployed using **GitHub Pages**, ensuring fast loading times and reliable hosting.
+
+Live Website:
+
+**https://marcosrdevbr.github.io**
+
+Source Code:
+
+**https://github.com/marcosrdevbr/marcosrdevbr.github.io**
 
 ---
 
 # 📈 Current Portfolio Statistics
 
-- 📁 14 Projects
-- 🎓 3 Certifications
-- 💻 6+ Technologies
-- ❤️ 100% Passion for Data
+- 🌍 3 Languages
+- 📁 14 Portfolio Projects
+- 📊 Power BI Dashboards
+- 📈 Tableau Dashboards
+- 🗄 SQL Projects
+- 🎓 3 Professional Certifications
+- 🏅 2 Technical Badges
+- 💻 9+ Technologies
+- 📱 100% Responsive Design
+- ⚡ Dynamic JavaScript Components
 
 ---
 
-# 🎯 Future Improvements (v2.0)
+# 👨🏾‍💻 About the Author
 
-- Individual Project Pages
-- Dark / Light Theme
-- Advanced Animations
-- Search Projects
-- Project Timeline
-- SEO Improvements
-- Open Graph Metadata
-- Sitemap
-- Robots.txt
-- Multi-language Support (EN / PT-BR)
+Hi! I'm **Marcos Rogério**, a Trade Marketing & Merchandising professional with more than **20 years of experience**, currently transitioning into **Business Intelligence** and **Data Analytics**.
+
+Throughout my career, I have led commercial initiatives, retail execution, field teams, performance analysis and strategic business projects.
+
+Today, I focus on transforming data into actionable business insights through practical projects developed with:
+
+- 📊 Power BI
+- 🗄 SQL
+- 📈 Tableau
+- 🐍 Python
+- 📑 Excel
+- 🌐 HTML, CSS & JavaScript
+
+This portfolio represents my continuous learning journey and my commitment to building business-oriented analytical solutions.
 
 ---
 
-# About the Author
-👨🏾‍💻 
+# 🎯 Professional Goals
 
-I'm a Trade Marketing & Merchandising professional currently transitioning into Business Intelligence and Data Analytics.
+My goal is to contribute to organizations by transforming complex data into clear, meaningful and actionable insights that support strategic decision-making.
 
-My focus is developing practical projects using Power BI, SQL, Tableau, Excel, and modern data visualization techniques to transform raw data into meaningful business insights.
+I am continuously improving my technical and analytical skills while building real-world portfolio projects that demonstrate practical Business Intelligence and Data Analytics solutions.
+
+---
+
+# 🌟 What You'll Find Here
+
+This portfolio includes projects focused on:
+
+- Business Intelligence
+- Data Analytics
+- Interactive Dashboards
+- KPI Monitoring
+- SQL Analysis
+- Data Visualization
+- Business Storytelling
+- Portfolio Website Development
+
+Each project has been designed to simulate real business scenarios while applying industry best practices.
 
 ---
 
 # 📫 Connect with Me
 
-🌐 Portfolio: https://marcosrdevbr.github.io
+### 🌐 Portfolio
 
-💼 LinkedIn: https://www.linkedin.com/in/marcos-rog%C3%A9rio-017923302/
+**https://marcosrdevbr.github.io**
 
-💻 GitHub: https://github.com/marcosrdevbr
+### 💼 LinkedIn: https://www.linkedin.com/in/marcos-rogerio-017923302/
 
-📊 Tableau Public: https://public.tableau.com/app/profile/marcos.rogerio5761/vizzes
+### 💻 GitHub: https://github.com/marcosrdevbr
 
+### 📊 Tableau Public: https://public.tableau.com/app/profile/marcos.rogerio5761
 
----
-
-# ⭐ If you enjoyed this project...
-
-If you found this portfolio interesting, consider giving this repository a ⭐ on GitHub.
-
-Feedback and suggestions are always welcome!
+### 📧 Email: thebestofblack@gmail.com
 
 ---
 
-Built with ❤️ using HTML, CSS, JavaScript and GitHub Pages.
+# ⭐ Support This Project
+
+If you enjoyed this portfolio or found it useful, consider giving this repository a ⭐ on GitHub.
+
+Your support helps increase the visibility of my work and motivates me to continue building new Business Intelligence and Data Analytics projects.
+
+Feedback, suggestions and professional connections are always welcome.
 
 ---
 
-## © Copyright Notice
+# 📄 License
 
-© 2026 Marcos Rogério. All rights reserved.
-
-This project is intended for portfolio and educational purposes.
+This repository is intended for **portfolio and educational purposes**.
 
 You are welcome to explore the source code for learning and reference.
 
-Copying, reproducing, or redistributing the design, branding, content, or visual identity of this project without prior written permission is prohibited.
+Please respect the originality of the project.
+
+Unauthorized copying, redistribution or reproduction of the design, branding, visual identity or content is prohibited.
 
 ---
 
+# 🙏 Acknowledgements
+
+Special thanks to the open-source community and to the many professionals who share knowledge, helping developers and data professionals grow every day.
+
+Continuous learning is one of the foundations of this portfolio.
+
+---
+
+# 🚀 Portfolio Roadmap
+
+Future improvements may include:
+
+- SEO optimization
+- Performance improvements
+- Progressive Web App (PWA)
+- Blog integration
+- Interactive case studies
+- Dark / Light theme
+- Advanced search
+- Additional languages
+- Accessibility enhancements
+
+---
+
+<p align="center">
+
+**Built with ❤️ using HTML5, CSS3, Vanilla JavaScript and GitHub Pages.**
+
+</p>
+
+---
+
+<p align="center">
+
+© 2026 **Marcos Rogério**. All rights reserved.
+
+This project is intended for portfolio and educational purposes only.
+
+The source code is available for learning and inspiration.
+
+Copying or reproducing the design, branding, visual identity or content without prior written permission is prohibited.
+
+</p>
