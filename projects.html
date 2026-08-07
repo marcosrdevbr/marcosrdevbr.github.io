@@ -1,20 +1,78 @@
 <!doctype html>
 
-<html lang="en">
+<html lang="en" data-page="projects">
   <head>
     <meta charset="UTF-8" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <!-- Primary SEO -->
     <meta
+      id="pageDescription"
       name="description"
-      content="Data Analytics, Business Intelligence, Power BI, Tableau and SQL projects developed by Marcos Rogério."
+      content="Explore Data Analytics, Business Intelligence, Power BI, Tableau and SQL projects developed by Marcos Rogério."
     />
+
+    <meta name="author" content="Marcos Rogério" />
+
+    <meta name="robots" content="index, follow" />
 
     <title>Projects | Marcos Rogério — Data Analytics</title>
 
-    <!-- Google Fonts -->
+    <!-- Canonical -->
+    <link rel="canonical" href="https://marcosrdevbr.github.io/projects.html" />
 
+    <!-- Open Graph -->
+    <meta
+      id="openGraphTitle"
+      property="og:title"
+      content="Projects | Marcos Rogério — Data Analytics"
+    />
+
+    <meta
+      id="openGraphDescription"
+      property="og:description"
+      content="Explore Data Analytics, Business Intelligence, Power BI, Tableau and SQL projects developed by Marcos Rogério."
+    />
+
+    <meta property="og:type" content="website" />
+
+    <meta
+      property="og:url"
+      content="https://marcosrdevbr.github.io/projects.html"
+    />
+
+    <meta
+      property="og:image"
+      content="https://marcosrdevbr.github.io/assets/images/portfolio-banner.png"
+    />
+
+    <meta
+      property="og:site_name"
+      content="Marcos Rogério | Data Analytics Portfolio"
+    />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <meta
+      id="twitterTitle"
+      name="twitter:title"
+      content="Projects | Marcos Rogério — Data Analytics"
+    />
+
+    <meta
+      id="twitterDescription"
+      name="twitter:description"
+      content="Explore Data Analytics, Business Intelligence, Power BI, Tableau and SQL projects developed by Marcos Rogério."
+    />
+
+    <meta
+      name="twitter:image"
+      content="https://marcosrdevbr.github.io/assets/images/portfolio-banner.png"
+    />
+
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -25,7 +83,6 @@
     />
 
     <!-- CSS -->
-
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
 
@@ -37,46 +94,140 @@
     <header class="header" id="header">
       <div class="container navbar">
         <!-- Logo -->
-
         <a
           href="index.html#home"
           class="logo"
           aria-label="Go to portfolio home"
+          data-i18n-aria-label="accessibility.portfolioHome"
         >
           Marcos<span>Rogério</span>
         </a>
 
         <!-- Navigation -->
-
         <nav class="navigation" id="navigation">
-          <a href="index.html#home" class="nav-link"> Home </a>
+          <a
+            href="index.html#home"
+            class="nav-link"
+            data-i18n="navigation.home"
+          >
+            Home
+          </a>
 
-          <a href="index.html#about" class="nav-link"> About </a>
+          <a
+            href="index.html#about"
+            class="nav-link"
+            data-i18n="navigation.about"
+          >
+            About
+          </a>
 
-          <a href="index.html#skills" class="nav-link"> Skills </a>
+          <a
+            href="index.html#skills"
+            class="nav-link"
+            data-i18n="navigation.skills"
+          >
+            Skills
+          </a>
 
-          <a href="projects.html" class="nav-link active" aria-current="page">
+          <a
+            href="projects.html"
+            class="nav-link active"
+            aria-current="page"
+            data-i18n="navigation.projects"
+          >
             Projects
           </a>
 
-          <a href="index.html#certifications" class="nav-link">
+          <a
+            href="index.html#certifications"
+            class="nav-link"
+            data-i18n="navigation.certifications"
+          >
             Certifications
           </a>
 
-          <a href="index.html#contact" class="nav-link"> Contact </a>
+          <a
+            href="index.html#contact"
+            class="nav-link"
+            data-i18n="navigation.contact"
+          >
+            Contact
+          </a>
         </nav>
 
-        <!-- Contact Button -->
+        <!-- Language Selector -->
+        <div class="language-dropdown" id="languageDropdown">
+          <button
+            class="language-dropdown-toggle"
+            id="languageDropdownToggle"
+            type="button"
+            aria-label="Select language"
+            data-i18n-aria-label="languageSelector.label"
+            aria-expanded="false"
+            aria-controls="languageDropdownMenu"
+          >
+            <span class="language-globe" aria-hidden="true">🌐</span>
+            <span data-current-language>EN</span>
+            <span class="language-arrow" aria-hidden="true">▾</span>
+          </button>
 
-        <a href="index.html#contact" class="header-button"> Let’s Connect </a>
+          <div
+            class="language-dropdown-menu"
+            id="languageDropdownMenu"
+            role="menu"
+            aria-hidden="true"
+          >
+            <button
+              class="language-option"
+              type="button"
+              role="menuitem"
+              data-language="en"
+              aria-pressed="false"
+            >
+              <span class="language-code">EN</span>
+              <span data-i18n="languageSelector.english">English</span>
+            </button>
+
+            <button
+              class="language-option"
+              type="button"
+              role="menuitem"
+              data-language="pt-BR"
+              aria-pressed="false"
+            >
+              <span class="language-code">PT</span>
+              <span data-i18n="languageSelector.portuguese">Português</span>
+            </button>
+
+            <button
+              class="language-option"
+              type="button"
+              role="menuitem"
+              data-language="zh-CN"
+              aria-pressed="false"
+            >
+              <span class="language-code">中文</span>
+              <span data-i18n="languageSelector.chinese">中文</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Contact Button -->
+        <a
+          href="index.html#contact"
+          class="header-button"
+          data-i18n="navigation.connect"
+        >
+          Let’s Connect
+        </a>
 
         <!-- Mobile Menu Button -->
-
         <button
           class="menu-button"
           id="menuButton"
           type="button"
           aria-label="Open navigation menu"
+          data-i18n-aria-label="accessibility.openMenu"
           aria-expanded="false"
         >
           <span></span>
@@ -92,42 +243,58 @@
 
     <main>
       <!-- ====================================================
-         PROJECTS HERO
-    ===================================================== -->
+       PROJECTS HERO
+  ===================================================== -->
 
       <section class="projects-page-hero">
         <div class="container projects-page-hero-container">
           <div class="projects-page-introduction">
             <a href="index.html" class="projects-page-back-link">
-              <span>←</span>
-              Back to Portfolio
+              <span aria-hidden="true">←</span>
+
+              <span data-i18n="projectsPage.hero.back">
+                Back to Portfolio
+              </span>
             </a>
 
-            <span class="section-label"> Complete Portfolio </span>
+            <span class="section-label" data-i18n="projectsPage.hero.label">
+              Complete Portfolio
+            </span>
 
             <h1 class="projects-page-title">
-              Data Analytics &amp;
-              <span>Business Intelligence Projects</span>
+              <span data-i18n="projectsPage.hero.title">
+                Data Analytics &amp;
+              </span>
+
+              <span data-i18n="projectsPage.hero.titleHighlight">
+                Business Intelligence Projects
+              </span>
             </h1>
 
-            <p class="projects-page-description">
+            <p
+              class="projects-page-description"
+              data-i18n="projectsPage.hero.description"
+            >
               Explore practical projects developed with Power BI, Tableau, SQL,
               Excel and Business Intelligence techniques. Each project focuses
               on solving business problems through data analysis, visualization
-              and strategic insights.
+              and sid:tegic insights.
             </p>
           </div>
 
           <!-- Summary Card -->
-
           <div class="projects-page-summary">
-            <div class="projects-summary-icon">◫</div>
+            <div class="projects-summary-icon" aria-hidden="true">◫</div>
 
             <strong id="projectsTotal"> 0 </strong>
 
-            <span> Portfolio Projects </span>
+            <span data-i18n="projectsPage.hero.summaryTitle">
+              Portfolio Projects
+            </span>
 
-            <p>Dashboards, SQL analyses and business intelligence solutions.</p>
+            <p data-i18n="projectsPage.hero.summaryDescription">
+              Dashboards, SQL analyses and business intelligence solutions.
+            </p>
           </div>
         </div>
       </section>
@@ -139,31 +306,43 @@
       <section class="all-projects-section">
         <div class="container">
           <!-- Filter Area -->
-
           <div class="projects-filter-area">
             <div class="projects-filter-heading">
               <div>
-                <span class="projects-filter-label"> Filter Portfolio </span>
+                <span
+                  class="projects-filter-label"
+                  data-i18n="projectsPage.filters.label"
+                >
+                  Filter Portfolio
+                </span>
 
-                <h2>Explore Projects by Technology</h2>
+                <h2 data-i18n="projectsPage.filters.title">
+                  Explore Projects by Technology
+                </h2>
               </div>
 
-              <p id="projectsResultText">Showing all projects</p>
+              <p
+                id="projectsResultText"
+                data-i18n="projectsPage.filters.initialResult"
+              >
+                Showing all projects
+              </p>
             </div>
 
             <!-- Filter Buttons -->
-
             <div
               class="projects-filters"
               id="projectsFilters"
               role="group"
               aria-label="Filter projects by technology"
+              data-i18n-aria-label="projectsPage.filters.ariaLabel"
             >
               <button
                 class="project-filter-button active"
                 type="button"
                 data-filter="all"
                 aria-pressed="true"
+                data-i18n="projectsPage.filters.allProjects"
               >
                 All Projects
               </button>
@@ -200,6 +379,7 @@
                 type="button"
                 data-filter="portfolio"
                 aria-pressed="false"
+                data-i18n="projectsPage.filters.webPortfolio"
               >
                 Web Portfolio
               </button>
@@ -207,7 +387,6 @@
           </div>
 
           <!-- Projects Grid -->
-
           <div
             class="all-projects-grid"
             id="allProjectsGrid"
@@ -215,18 +394,20 @@
           ></div>
 
           <!-- Empty State -->
-
           <div class="projects-empty-state" id="projectsEmptyState" hidden>
-            <div class="projects-empty-icon">◇</div>
+            <div class="projects-empty-icon" aria-hidden="true">◇</div>
 
-            <h3>No projects found</h3>
+            <h3 data-i18n="projectsPage.emptyState.title">No projects found</h3>
 
-            <p>There are currently no projects available for this filter.</p>
+            <p data-i18n="projectsPage.emptyState.description">
+              There are currently no projects available for this filter.
+            </p>
 
             <button
               class="button button-secondary"
               id="clearProjectFilter"
               type="button"
+              data-i18n="projectsPage.emptyState.button"
             >
               Show All Projects
             </button>
@@ -240,38 +421,58 @@
   ======================================================= -->
 
     <footer class="footer projects-page-footer">
-      <div class="container">
-        <div class="footer-bottom">
-          <p>
-            © <span id="currentYear">2026</span>
-            Marcos Rogério. All rights reserved.
-          </p>
+  <div class="container">
 
-          <p>Built with HTML, CSS &amp; JavaScript.</p>
-        </div>
-      </div>
-    </footer>
+    <div class="footer-bottom">
 
-    <!-- ======================================================
-       BACK TO TOP
-  ======================================================= -->
+      <p>
+        © <span id="currentYear">2026</span>
 
-    <button
-      class="back-to-top"
-      id="backToTop"
-      type="button"
-      aria-label="Back to top"
-      title="Back to top"
-    >
-      ↑
-    </button>
+        <span data-i18n="footer.copyright">
+          Marcos Rogério. All rights reserved.
+        </span>
+      </p>
 
-    <!-- ======================================================
-       JAVASCRIPT FILES
-  ======================================================= -->
+      <p data-i18n="projectsPage.footer.development">
+        Built with HTML, CSS &amp; JavaScript.
+      </p>
+
+    </div>
+
+  </div>
+</footer>
+
+<!-- ======================================================
+     BACK TO TOP
+======================================================= -->
+
+<button
+  class="back-to-top"
+  id="backToTop"
+  type="button"
+  aria-label="Back to top"
+  data-i18n-aria-label="footer.backToTop"
+  title="Back to top"
+  data-i18n-title="footer.backToTop"
+>
+  ↑
+</button>
+
+
+    <!-- ==========================================================
+     TRANSLATION FILES
+========================================================== -->
+
+    <script src="assets/translations/en.js"></script>
+    <script src="assets/translations/pt-BR.js"></script>
+    <script src="assets/translations/zh-CN.js"></script>
+
+    <!-- ==========================================================
+     JAVASCRIPT FILES
+========================================================== -->
 
     <script src="assets/js/projects.js"></script>
-
     <script src="assets/js/script.js"></script>
+    <script src="assets/js/language.js"></script>
   </body>
 </html>
